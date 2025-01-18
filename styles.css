@@ -3,29 +3,29 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eaeef1; /* Light gray background */
-    color: #1f1f1f; /* Darker text color for better contrast */
+    background: linear-gradient(135deg, #eaeef1, #ffffff); /* Gradient background */
+    color: #1f1f1f;
     line-height: 1.6;
 }
 
 h2 {
     margin: 20px;
     text-align: center;
-    color:  #211238; 
+    color: #211238;
 }
 
 h1 {
     text-align: center;
-    color: #6a5acd; /* Slate blue color */
-    font-size: 2.5em; /* Larger font size */
-    margin: 20px 0; /* Margin for spacing */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
-    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transform */
+    color: #6a5acd;
+    font-size: 2.5em;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s, transform 0.3s;
 }
 
 h1:hover {
-    color: #483d8b; /* Darker slate blue on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    color: #483d8b;
+    transform: scale(1.05);
 }
 
 .navbar {
@@ -33,7 +33,7 @@ h1:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #211238; /* Blue color for navbar */
+    background: linear-gradient(135deg, #211238, #3b7dd8); /* Gradient background */
     color: #fff;
 }
 
@@ -53,18 +53,20 @@ h1:hover {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .navbar a:hover {
-    background-color: #3b7dd8; /* Darker blue on hover */
+    background-color: #3b7dd8;
     border-radius: 4px;
+    transform: scale(1.1);
 }
 
 main {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff; /* White background for main content */
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
@@ -79,13 +81,13 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 400px; 
-    margin: 50px auto; 
+    max-width: 400px;
+    margin: 50px auto;
     padding: 20px;
-    background-color: #f8f8f8; /* Light gray for login form */
+    background-color: #f8f8f8;
     border: 1px solid #ddd;
-    border-radius: 8px; 
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 input, button {
@@ -96,64 +98,68 @@ input, button {
 }
 
 input:focus {
-    border-color: #4a90e2; /* Blue focus border */
+    border-color: #4a90e2;
     outline: none;
 }
 
 button {
-    background-color: #ff6f61; /* Coral button color */
+    background-color: #ff6f61;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 button:hover {
-    background-color: #ff4d4d; /* Darker coral on hover */
+    background-color: #ff4d4d;
+    transform: scale(1.05);
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6a5acd; /* Slate blue */
+    background-color: #6a5acd;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    transition: background-color 0.3s;    
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .button:hover {
-    background-color: #5a4cb1; /* Darker slate blue */
+    background-color: #5a4cb1;
+    transform: scale(1.05);
 }
 
 .delete-btn {
-    background: none; 
-    color: #d9534f; /* Bootstrap danger color */
-    border: none; 
+    background: none;
+    color: #d9534f;
+    border: none;
     padding: 0;
-    font-size: 14px; 
-    text-decoration: underline; 
-    cursor: pointer;   
-    transition: color 0.3s; 
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
 }
 
 .delete-btn:hover {
     background: none;
-    color: #c9302c; /* Darker red on hover */
+    color: #c9302c;
+    transform: scale(1.05);
 }
 
 .central-button {
-    display: flex;     
-    justify-content: center; 
-    align-items: center;     
-    margin: 20px 0;          
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px auto; 
-    max-width: 90%; 
-    background-color: #fff; /* White background for table */
+    margin: 20px auto;
+    max-width: 90%;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
@@ -165,18 +171,18 @@ th, td {
 }
 
 th {
-    background-color: #4a90e2; /* Blue for table header */
+    background-color: #4a90e2;
     color: #fff;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2; /* Light gray for even rows */
+    background-color: #f2f2f2;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4a90e2; /* Blue for footer */
+    background-color: #4a90e2;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -196,7 +202,6 @@ footer {
     margin: 20px auto;
 }
 
-/* Center and style the Plotly chart container */
 .chart-container {
     display: flex;
     justify-content: center;
@@ -205,15 +210,11 @@ footer {
     margin-top: 20px;
 }
 
-
 .chart-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-
-
-
 
 .suggestions {
     position: absolute;
@@ -233,16 +234,14 @@ footer {
     background-color: #f0f0f0;
 }
 
-
-
-
 .cta-section {
     background-color: #f9f9f9;
     padding: 40px 20px;
     text-align: center;
-    margin: 20px ;
-    border: 2px solid #ddd; /* Added border */
-    border-radius: 8px; /* Rounded corners */
+    margin: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 .cta-content {
@@ -250,6 +249,7 @@ footer {
     max-width: 600px;
     width: 80%;
 }
+
 .cta-icon {
     width: 100px;
     height: 100px;
@@ -279,15 +279,20 @@ footer {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .cta-button:hover {
     background-color: #0056b3;
+    transform: scale(1.05);
 }
 
-
-
 hr.blue {
-    border: 1px solid #cb23f0; /* Blue border */
-    margin: 20px ; /* Margin for spacing */
-}   
+    border: 1px solid #cb23f0;
+    margin: 20px;
+}
+
+ul.list {
+    list-style-type: none;
+    padding: 0;
+}
