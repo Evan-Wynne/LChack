@@ -1,0 +1,17 @@
+€5bn - to spend
+
+needs:
+- add/remove items x
+- total spent/remainder x
+- list of expensive items x
+
+wants:
+- footer showing spent/remainder as you scroll though items x
+
+javascript:
+- keep track of total spent x
+- button functions x
+
+html/css:
+- grid of items x
+- header x
